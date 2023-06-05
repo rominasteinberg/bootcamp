@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: blue;
+  font-size: 24px;
+}
+
+.saga {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  color: #333;
+  font-size: 24px;
+}
+
+.description {
+  color: #666;
+  font-size: 16px;
+  margin-top: 10px;
+}
