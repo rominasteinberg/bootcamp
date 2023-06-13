@@ -4,11 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Dr Strange</title>
 </head>
 
 <body>
-
+    <header aria-label="navigation bar with three destinations, home, information, photo gallery">
+        <nav class="bannerNav">
+            <ul class="navUl">
+                <li class="navLi"><a class="navLink" href="#home">Home</a></li>
+                <li class="navLi"><a class="navLink" href="#information">Information</a></li>
+                <li class="navLi"><a class="navLink" href="#gallery">Photo Gallery</a></li>
+            </ul>
+        </nav>
+        <h1 id="home">Dr Strange</h1>
+    </header>
+    <main>
+        <div class="positionImage">
+            <img class="imagePresentation" src="./images/drstrangepresentation.webp" alt="Dr Strange frontpage">
+        </div>
+        <h2>Welcome to Dr Strange Wiki</h2>
+        <p class="subtitle">
+            Here you will have all the information about Stephen Vincent Strange better known by his hero name Dr
+            Strange</p>
+        <section aria-label="Information About Dr Strange" id="information">
+            <article aria-label="History about Dr Strange">
+                <h3>History</h3>
+                <div class="textColumns">
+                    <p class="text-order">Doctor Stephen Vincent Strange is a powerful sorcerer and leading member of
+                        the Masters of the Mystic Arts. He was a successful and arrogant neurosurgeon, until a car
+                        accident severely damaged his
+                        hands,causing him to set out on a journey that took him to Kamar-Taj, where upon discovering
+                        magic and
+                        alternate dimensions, he was disturbed by the Ancient One and Karl Mordo.
+                    </p>
+                    <p class="text-order"> Though his focus was healing
+                        his hands, Strange learned more about the mystical arts, and helped the Masters stop Kaecilius
+                        and the Zealots from merging Earth with Dormammu's Dark Dimension, at the cost of the Old One's
+                        death.
+                        With the loss of his mentor, Strange became the protector of the New York Sanctuary and Earth
+                        against
+                        interdimensional threats.</p>
+                </div>
+            </article>
+            <article aria-label="dr strange personality">
+                <h3>Personality</h3>
+                <div class="textColumns">
+                    <p class="text-order">Before he had his accident, Strange had a huge ego that fueled his career.
+                        Strange agreed to only help patients who they believed would benefit their condition, even
+                        refusing to operate on the
+                        back of a United States Army colonel, although it was because this injury was simple enough for
+                        any
+                        neurosurgeon to operate on.
+                    </p>
+                    <p class="text-order">His work also fueled his desire to control death and time, leading him to
+                        refuse to even look at
+                        any patients he perceived as having little chance of recovery so as not to ruin his record.
+                        However,
+                        if he also sensed the possibility of a patient surviving, it would help them recover even if it
+                        didn't benefit his public image, showing that deep down, he cares about saving people.
+                    </p>
+                </div>
+            </article>
+            <article aria-label="Powers and abilities that Dr Strange has">
+                <h3>Powers and Abilities</h3>
+                <div class="containerPowers">
+                    <ul class="PowersList">
+                        <li>Manipulation of the Mystic Arts </li>
+                        <li>Astral Projection</li>
+                        <li>Interdimensional travel</li>
+                        <li>Third Eye Vision</li>
+                        <li>Mystic Shields</li>
+                        <li>Time Manipulation</li>
+                        <li>Teleportation</li>
+                        <li>Mind Reading</li>
+                    </ul>
+                </div>
+            </article>
+            <article aria-label="Other information to take into account about Dr Strange">
+                <h3>Other Data</h3>
+                <div class="containerTable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Membership</th>
+                                <th>Appearances</th>
+                                <th>Death</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Metropolitan General Hospital</td>
+                                <td>Movies/Series/Web</td>
+                                <td>January 19, 2017 (multiple times by Dormammu)</td>
+                            </tr>
+                            <tr>
+                                <td>Columbia University (formerly)</td>
+                                <td>Videogames/Comics</td>
+                                <td>May 31, 2018 (victim of the Snap)</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td><a
+                                        href="https://marvelcinematicuniverse.fandom.com/es/wiki/Stephen_Strange#Uni%C3%A9ndose_a_los_Maestros_de_las_Artes_M%C3%ADsticas">Read
+                                        More Information</a></td>
+                                <td><a
+                                        href="https://marvelcinematicuniverse.fandom.com/es/wiki/Stephen_Strange#Apariciones">Read
+                                        More Information</a></td>
+                                <td><a href="https://marvel.fandom.com/es/wiki/Muerte_de_Doctor_Strange">Read More
+                                        Information</a></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </article>
+        </section>
+        <section aria-label="different images of dr strange" id="gallery">
+            <h2>Photo gallery</h2>
+            <div class="containerGallery">
+                <img class="imageGallery" src="images/GalleryOne.avif" alt="Image Gallery One">
+                <img class="imageGallery" src="images/GalleryTwoMovie.jpg" alt="Image Gallery Two">
+                <img class="imageGallery" src="images/GalleryTreeComic.jpg" alt="Image Gallery Tree">
+                <img class="imageGallery" src="images/PhotoGalleryFourth.jpeg" alt="Image Gallery Fourth">
+            </div>
+        </section>
+    </main>
+    <footer aria-label="footer and copyright information">
+        <p>Copyright 2023 Guillermo Morales Site</p>
+    </footer>
 </body>
 
 </html>
