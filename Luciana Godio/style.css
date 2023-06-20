@@ -1,3 +1,4 @@
+/* Nav */
 nav{
     display: flex;
     align-items: center;
@@ -9,7 +10,7 @@ nav{
     z-index: 1;
     
 }
-.nav-lista{
+.nav-list{
     display: flex;
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -22,7 +23,6 @@ nav{
     width: 100px;
     padding: 20px;
 }
-
 .nav-lista li a{
     padding-left: 50px;
     color: #0d680a;
@@ -30,6 +30,7 @@ nav{
     padding-bottom: 2px;
 }
 
+/* General body */
 body{
     background-color: rgba(1, 2, 1, 0.849);
     color: rgb(219, 238, 255);
@@ -44,18 +45,35 @@ h2{
     
     color: rgb(1, 115, 1);
 }
-.i-inicio {
-    margin:auto;
-    display: block;
+h3 {
+    color: #2f952c;
+    text-align: center;
 }
 
+/* Main image */
 .centered {
     width: 500px;
     height: 880px;
     /* border: 4px solid green; */
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
+.i-main {
+    margin: auto;
+    display: block;
+}
+/* About */
+.green-loki {
+    margin: auto;
+    display: block;
+    width: 200px;
+    height: 350px;
+}
+p {
+    text-align: center;
+}
+
+/* Quotes */
 .container{
     display: grid;
     grid-template-columns: auto auto;
@@ -65,67 +83,56 @@ h2{
     "quote1 quote2"
     "quote3 .";
 }
-.quote1 {
+.quoteGeneral{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.1fr 1fr;
     gap: 0px 0px;
+}
+.quote1 {
     grid-template-areas:
-            "ldagger"
-            "image-dagger";            
+        "ldagger"
+        "image-dagger";            
     grid-area: quote1;
 }
+/* Quote1 title */
 .ldagger{
     grid-area: ldagger;
 }
+/* Quote1 image */
 .image-dagger {
     grid-area: image-dagger;
 }
 .quote2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 1fr;
-    gap: 0px 0px;
     grid-template-areas:
         "ghelp"
         "image-gh";
     grid-area: quote2;
 }
+/* Quote2 title */
 .ghelp{
     grid-area: ghelp;
 }
+/* Quote2 image */
 .image-gh {
     grid-area: image-gh;
 }
 .quote3{
-    display: grid;
-        grid-template-columns: 1fr;
-            grid-template-rows: 0.1fr 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-            "surprise"
-            "image-s ";
+    grid-template-areas:
+        "surprise"
+        "image-s ";
     grid-area: quote3;
 }
+/* Quote3 title */
 .surprise{
     grid-area: surprise;
 }
+/* Quote3 image */
 .image-s{
     grid-area: image-s;
 }
-h3{
-    color: #2f952c;
-    text-align: center;
-}
-.loki-verde{
-    margin: auto;
-    display: block;
-    width: 200px;
-    height: 350px;
-}
-p{
-text-align: center;
-}
+
+/* Family  */
 table{
     width: 90%;
     border-collapse: collapse;
@@ -139,34 +146,35 @@ th,td{
 th{
     background-color: #0f7c053b;
 }
-.contenedor-lista{
+
+/* Powers */
+.container-list{
     display: flex;
     justify-content: center;
 }
-.lista-poderes{
+.powers-list{
     list-style-type: none;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;  
 }
-.lista-poderes li{
+.powers-list li{
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 5px;
     position: relative;
 }
-.lista-poderes li .contenido-li {
+.powers-list li .list-content {
     background-color: rgb(14, 79, 17);
     display: inline-block;
     padding: 5px 10px;
     border-radius: 5px;
 }
-.lista-poderes li sub{
+.lispowers-list li sub{
     display: block;
     font-size: 14px;
     margin-top: 5px;
-    
 }
-.lista-poderes li:before {
+.powers-list li:before {
     content: "";
     position: absolute;
     top: 0;
@@ -176,25 +184,27 @@ th{
     z-index: -1;
     border-radius: 5px;
 }
-.lista-poderes li:hover{
+.powers-list li:hover{
     background-color: rgba(64, 175, 70, 0.521);
     color: black;
 }
-.lista-poderes li:first-child{
+.powers-list li:first-child{
     margin-top: 5px;
 }
-.lista-poderes li:last-child{
+.powers-list li:last-child{
     margin-bottom: 0;
 }
+
+/* Variants images */
 .variants-galeria{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.contenedor-t{
+.container-t{
     margin-bottom: 10px;
 }
-.contenedor-f{
+.container-f{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
